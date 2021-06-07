@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  height: 100%;
+  background: #f4f1fa;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5, span, p, a{
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+span, p, a{
+  font-size: 20px;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  background: #a56ece;
+  border-color: #7107bb00;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f4f1fa;
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #c1c1c1; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b5b5b9; 
+}

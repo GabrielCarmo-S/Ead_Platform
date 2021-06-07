@@ -1,0 +1,163 @@
+.container_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  /* background: blue; */
+}
+
+.container_back{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  position: absolute;
+
+  width: 100%;
+  height: 50px;
+
+  /* background: red; */
+  padding: 20px;
+
+  z-index: 6;
+}
+
+.content_main_texts{
+  display: flex;
+  align-items: center;
+}
+
+.content_main_texts i{
+  margin-right: 3px;
+  color: #fff;
+}
+
+.container_video{
+  display: flex;
+
+  /* position: fixed; */
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 5;
+}
+
+video{
+  height: 100vw;
+}
+
+body {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.conteiner_aulas {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+}
+
+.content_aulas {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+
+  width: 90%;
+  height: 80px;
+
+  border-radius: 7px;
+  margin-top: 20px;
+  /* margin-right: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content_aulas:hover, .content_aulas_2:hover {
+  background: #fff;
+}
+
+.content_aulas:hover .n3{
+  display: flex;
+}
+
+.content_aulas:hover{
+  justify-content: space-between;
+}
+
+.content_aulas img {
+  padding: 10px;
+  width: 100px;
+  height: 100%;
+  border-radius: 20%;
+}
+
+.content_aulas:hover .content_aulas_text{
+  margin-left: 0px;
+}
+
+.content_aulas_text {
+  display: flex;
+
+  flex-direction: column;
+  width: 100px;
+  height: 100%;
+  align-items: center;
+  
+  cursor: pointer;
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.content_aulas_2 {
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+  height: 80px;
+
+  border-radius: 7px;
+  margin-top: 20px;
+  /* margin-right: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.content_aulas_text span {
+  color: #000;
+}
+
+.content_aulas_text p {
+  color: rgb(184, 167, 167);
+}
+
+.content_aulas_2 i {
+  color: #ccc;
+  font-size: 54px;
+  padding-top: 3px;
+  padding-left: 20px;
+  /* background: red; */
+}
+
+.n3 {
+  display: none;
+  padding-right: 20px;
+}
+
+.n3 a i {
+  color: #5c1ee3;
+  font-size: 24px;
+}

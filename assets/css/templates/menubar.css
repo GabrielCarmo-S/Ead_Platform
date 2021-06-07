@@ -1,0 +1,48 @@
+.menubar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  align-items: flex-end;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  background: #fff;
+
+  border-top: 1px solid #ccc;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 11;
+}
+
+.content_menu_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 100%;
+
+  flex-direction: row;
+}
+
+.content_menu_bar a i {
+  font-size: 30px;
+  color: #843ff4;
+}
+
+.content_menu_bar button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.content_menu_bar button i {
+  font-size: 30px;
+  color: #843ff4;
+}
+
+@media (min-width: 1000px) {
+  .menubar {
+    display: none;
+  }
+}
